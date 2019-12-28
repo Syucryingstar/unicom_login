@@ -8,7 +8,8 @@ from lxml import etree
 
 def get_ip():
     """
-    :return: 获取内网ip, 错误则返回字符串"unknow"
+    获取内网ip, 错误则返回字符串"unknow"
+    :return:
     """
     local_ip = "unknow"
     try:
